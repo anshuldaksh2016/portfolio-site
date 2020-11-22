@@ -1,6 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+
 body {
-  color: mediumseagreen;
-}
-h1 {
-  color: blueviolet;
+  font-family: "Montserrat", sans-serif;
 }
