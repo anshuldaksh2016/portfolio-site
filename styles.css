@@ -27,7 +27,7 @@ hr {
 /* links */
 .link {
   text-decoration: none;
-  padding: 0.5rem, 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .primary-link {
@@ -39,6 +39,7 @@ hr {
 .secondary-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
 }
 
 /* lists */
@@ -50,4 +51,29 @@ hr {
 .list-inline {
   display: inline;
   padding: 0rem 0.5rem;
+}
+
+/* navigation */
+.navigation {
+  background-color: blueviolet;
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
 }
