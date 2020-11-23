@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+
+:root {
+  --primary-color: #7c3af0;
+  --dark-gray: #6b7280;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+/* container */
+
+.container {
+  padding: 0rem, 1rem;
+}
+
+.container-centered {
+  max-width: 600px;
+  margin: auto;
+  /* for center */
+}
+
+/* links */
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  margin: 2px;
+  /*margin-top: 1rem;
+  margin-bottom: 1rem;*/
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.secondary-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+/* lists */
+
+.non-bullet {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* navigation */
+.navigation {
+  background-color: blueviolet;
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/*header*/
+
+.hero {
+  padding: 2rem;
+  padding: top 5rem;
+}
+.hero .hero-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  padding-top: 1rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+  color: #7c3af0;
+}
+
+/* section  */
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: #f3f4f6;
+}
+
+/* footer */
+
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem 0rem;
+  text-align: center;
+  color: white;
+  list-style: none;
+  border-top-right-radius: 1rem;
+  margin-top: 20px;
+}
+
+.footer .link {
+  color: white;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
