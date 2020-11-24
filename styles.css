@@ -139,3 +139,15 @@ footer {
 .footer ul {
   padding-inline-start: 0px;
 }
+
+.more {
+  display: none;
+}
+
+/* footer social media icons  */
+
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;*/
+/*}*/
