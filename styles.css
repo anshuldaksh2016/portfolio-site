@@ -21,7 +21,8 @@ hr {
 }
 
 .container-centered {
-  max-width: 600px;
+  max-width: 400px;
+  max-height: fit-content;
   margin: auto;
   /* for center */
 }
@@ -34,6 +35,9 @@ hr {
   margin: 2px;
   /*margin-top: 1rem;
   margin-bottom: 1rem;*/
+}
+nav .link:hover {
+  background-color: wheat;
 }
 
 .primary-link {
@@ -116,9 +120,27 @@ hr {
   background-color: #f3f4f6;
 }
 
+/* skill container */
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  padding: 1rem 40px;
+}
+
+.skill-box {
+  padding: 1rem;
+  cursor: pointer;
+}
+.skill-container .skill-box img {
+  width: 75px;
+}
+
 /* footer */
 
-footer {
+.footer {
   background-color: var(--primary-color);
   padding: 2rem 0rem;
   text-align: center;
@@ -139,3 +161,15 @@ footer {
 .footer ul {
   padding-inline-start: 0px;
 }
+
+.more {
+  display: none;
+}
+
+/* footer social media icons  */
+
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;*/
+/*}*/
