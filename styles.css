@@ -144,7 +144,7 @@ nav .link:hover {
 }
 
 /* skill container */
-.skill-container {
+/*.skill-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
@@ -159,7 +159,7 @@ nav .link:hover {
 }
 .skill-container .skill-box img {
   width: 75px;
-}
+}*/
 
 /* footer */
 
@@ -196,3 +196,17 @@ nav .link:hover {
   font-size: 30px;
   width: 30px;*/
 /*}*/
+
+/* new skills section */
+
+.skill-container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.skill-container .heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: aliceblue;
+}
