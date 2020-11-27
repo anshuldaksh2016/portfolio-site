@@ -248,3 +248,26 @@ nav .link:hover {
   margin-top: 5px;
   color: #b9b9b9;
 }
+
+/* projects style */
+
+.proj-timeline {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.proj-card {
+  max-width: 700px;
+  text-align: center;
+  margin-top: 10px;
+}
+.proj-img img {
+  width: 450px;
+}
+.proj-heading-1 {
+  color: #b9b9b9;
+}
+
+.proj-links a {
+  margin: 10px 20px;
+}
