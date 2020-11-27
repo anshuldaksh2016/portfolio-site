@@ -96,13 +96,30 @@ nav .link:hover {
   z-index: 1;
 }
 .hero .hero-img {
-  max-width: 300px;
+  max-width: 650px;
   display: block;
-  margin: auto;
+  margin: 0 0 15px auto;
 }
 .hero-content {
   position: absolute;
   top: 20%;
+  margin: auto;
+  line-height: 20px;
+}
+
+.hero-content h5 {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.hero-content h1 {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.hero-content p {
+  font-weight: 200;
+  font-size: 30px;
 }
 
 /*.hero .hero-heading {
