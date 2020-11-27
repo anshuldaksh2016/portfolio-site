@@ -4,7 +4,7 @@
   --primary-color: #7c3af0;
   --dark-gray: #6b7280;
 }
-htmlbody {
+body {
   font-family: "Work Sans", sans-serif;
   margin: 0px;
 
@@ -68,6 +68,10 @@ nav .link:hover {
 }
 
 /* navigation */
+.nav {
+  font-weight: 300;
+  font-size: 50px;
+}
 .navigation {
   padding: 1.5rem;
   color: var(--primary-color);
@@ -105,15 +109,15 @@ nav .link:hover {
 }
 .hero-content {
   position: absolute;
-  top: 20%;
+  top: 10%;
   margin: auto;
   line-height: 20px;
   color: var(--primary-color);
 }
 
-.hero-content h1 {
+.hero-content h3 {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .hero-content h1 {
