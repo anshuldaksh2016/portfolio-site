@@ -7,9 +7,7 @@
 body {
   font-family: "Work Sans", sans-serif;
   margin: 0px;
-
   overflow: visible;
-  --opacity: 0.6;
   margin: 0;
   background-color: #fdfcfa;
 }
@@ -103,16 +101,16 @@ nav .link:hover {
   position: relative;
 }
 .hero .hero-img {
-  width: 60%;
-  max-width: 100%;
+  width: 50%;
   height: auto;
   display: block;
   margin: 0 0 15px auto;
 }
 .hero-content {
   position: absolute;
-  top: 20%;
+  top: 25%;
   margin: auto;
+  width: 50%;
   line-height: 20px;
   color: var(--primary-color);
 }
