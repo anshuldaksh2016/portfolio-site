@@ -8,7 +8,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  background-color: #283149;
+  background-color: #4b5563;
 }
 
 hr {
@@ -143,28 +143,10 @@ nav .link:hover {
   color: white;
 }
 
-/* skill container */
-/*.skill-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  grid-gap: 1rem;
-  padding: 1rem 40px;
-}
-
-.skill-box {
-  padding: 1rem;
-  cursor: pointer;
-}
-.skill-container .skill-box img {
-  width: 75px;
-}*/
-
 /* footer */
 
 .footer {
-  background-color: var(--primary-color);
+  background-color: black;
   padding: 2rem 0rem;
   text-align: center;
   color: white;
@@ -188,14 +170,6 @@ nav .link:hover {
 .more {
   display: none;
 }
-
-/* footer social media icons  */
-
-/*.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;*/
-/*}*/
 
 /* new skills section */
 
@@ -224,12 +198,13 @@ nav .link:hover {
   border: 1px solid #ccc;
   border-radius: 10px;
   margin-bottom: 10px;
+  box-shadow: 0 0 5em -1em black;
   transition: 0.3s;
 }
 
 .card-header {
   text-align: center;
-  padding: 20px 5px;
+  padding: 10px 5px;
 }
 
 .card-body {
@@ -241,6 +216,11 @@ nav .link:hover {
 .card:hover {
   transform: scale(1.1);
   box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+  text-align: center;
+  width: 40%;
 }
 
 @media screen and (max-width: 620px) {
