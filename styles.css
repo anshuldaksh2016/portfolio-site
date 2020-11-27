@@ -176,7 +176,7 @@ nav .link:hover {
   text-align: center;
   font-size: 30px;
   margin-bottom: 50px;
-  color: aliceblue;
+  color: var(--primary-color);
 }
 .row {
   display: flex;
