@@ -223,9 +223,7 @@ nav .link:hover {
   .skill-container {
     width: 100%;
   }
-  .slide {
-    display: none;
-  }
+
   .heading {
     padding: 20px;
     font-size: 20px;
@@ -278,4 +276,12 @@ nav .link:hover {
 
 .proj-links a {
   margin: 10px 20px;
+}
+
+/* about me index.html */
+
+#about #about-me-heading {
+  text-align: center;
+  justify-content: center;
+  font-size: large;
 }
