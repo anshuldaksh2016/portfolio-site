@@ -39,7 +39,7 @@ hr {
   margin-bottom: 1rem;*/
 }
 nav .link:hover {
-  background-color: wheat;
+  text-decoration: underline;
 }
 
 .primary-link {
