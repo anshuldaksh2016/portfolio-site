@@ -104,7 +104,8 @@ nav .link:hover {
   width: 50%;
   height: auto;
   display: block;
-  margin: 0 0 10px auto;
+  position: relative;
+  margin: 0 10px 10px auto;
 }
 .hero-content {
   position: absolute;
@@ -168,23 +169,16 @@ nav .link:hover {
 
 /* new skills section */
 
-.skill-container {
-  width: 90%;
-  margin: 40px auto;
-}
-
-.skill-container .heading {
+.heading {
   text-align: center;
+  margin: 0;
   font-size: 30px;
   margin-bottom: 50px;
   color: var(--primary-color);
 }
-.row {
+
+.skill-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex: 1;
-  justify-content: space-around;
 }
 
 .card {
@@ -192,7 +186,8 @@ nav .link:hover {
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin: 10px;
+  padding: 2px;
   box-shadow: 0 0 2em -1em black;
   transition: 0.3s;
 }
@@ -220,7 +215,7 @@ nav .link:hover {
 
 @media screen and (max-width: 620px) {
   .skill-container {
-    width: 100%;
+    flex-wrap: wrap;
   }
 
   .heading {
@@ -228,7 +223,7 @@ nav .link:hover {
     font-size: 20px;
   }
   .card {
-    width: 30%;
+    width: 20%;
   }
 }
 
