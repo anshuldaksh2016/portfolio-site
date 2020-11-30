@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
 
-* {
-  box-sizing: border-box;
-}
 :root {
   --primary-color: #7c3af0;
   --dark-gray: #6b7280;
 }
-
 body {
   font-family: "Work Sans", sans-serif;
   margin: 0px;
@@ -101,21 +97,22 @@ nav .link:hover {
 
 .hero {
   margin-top: 2px;
-  padding: 1rem;
+  padding: 2rem;
   position: relative;
 }
 .hero .hero-img {
   width: 50%;
   height: auto;
   display: block;
-  margin: 0 0 10px auto;
+  margin: 0 0 15px auto;
 }
 .hero-content {
   position: absolute;
-  top: 24%;
+  top: 25%;
   margin: auto;
   width: 50%;
-  line-height: 10px;
+  line-height: 20px;
+  color: var(--primary-color);
 }
 
 .hero-content h3 {
@@ -128,8 +125,9 @@ nav .link:hover {
   font-size: 50px;
 }
 
-.hero-content span {
-  color: var(--primary-color);
+.hero-content p {
+  font-weight: 200;
+  font-size: 30px;
 }
 
 /* section  */
@@ -172,8 +170,8 @@ nav .link:hover {
 /* new skills section */
 
 .skill-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 90%;
+  margin: 40px auto;
 }
 
 .skill-container .heading {
@@ -182,46 +180,27 @@ nav .link:hover {
   margin-bottom: 50px;
   color: var(--primary-color);
 }
-.cards {
+.row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  flex: 1;
+  justify-content: space-around;
 }
 
 .card {
-  border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 2em -1em black;
   transition: 0.3s;
 }
 
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-  }
-}
-
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
-}
-
-.cards_item {
-  display: flex;
-  padding: 1rem;
-}
-.card_title {
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
+.card-header {
+  text-align: center;
+  padding: 10px 5px;
 }
 
 .card-body {
