@@ -109,7 +109,7 @@ nav .link:hover {
 .hero-content {
   position: absolute;
   top: 24%;
-  margin: auto;
+  margin-left: 5px;
   width: 50%;
   line-height: 10px;
 }
