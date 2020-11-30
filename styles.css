@@ -40,6 +40,7 @@ hr {
 }
 nav .link:hover {
   text-decoration: underline;
+  color: black;
 }
 
 .primary-link {
