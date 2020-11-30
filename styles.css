@@ -116,13 +116,13 @@ nav .link:hover {
 }
 
 .hero-content h3 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 40px;
 }
 
 .hero-content h1 {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .hero-content span {
@@ -154,6 +154,10 @@ nav .link:hover {
   color: white;
 }
 
+.footer .link:hover {
+  text-decoration: underline;
+  color: black;
+}
 .footer .footer-header {
   font-weight: bold;
   font-size: large;
