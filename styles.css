@@ -97,22 +97,21 @@ nav .link:hover {
 
 .hero {
   margin-top: 2px;
-  padding: 2rem;
+  padding: 1rem;
   position: relative;
 }
 .hero .hero-img {
   width: 50%;
   height: auto;
   display: block;
-  margin: 0 0 15px auto;
+  margin: 0 0 10px auto;
 }
 .hero-content {
   position: absolute;
-  top: 25%;
+  top: 24%;
   margin: auto;
   width: 50%;
-  line-height: 20px;
-  color: var(--primary-color);
+  line-height: 10px;
 }
 
 .hero-content h3 {
@@ -125,9 +124,8 @@ nav .link:hover {
   font-size: 50px;
 }
 
-.hero-content p {
-  font-weight: 200;
-  font-size: 30px;
+.hero-content span {
+  color: var(--primary-color);
 }
 
 /* section  */
