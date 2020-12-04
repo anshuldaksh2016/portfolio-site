@@ -90,7 +90,7 @@ nav .link:hover {
   color: var(--primary-color);
 }
 
-.navigation .link-active {
+.navigation {
   font-weight: bold;
 }
 
