@@ -214,9 +214,11 @@ nav .link:hover {
 
 /* section  */
 
-.section-title {
+#section-title {
   text-align: center;
   font-size: 3rem;
+  /*color: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);*/
+  /*color: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);*/
   color: var(--primary-color);
   text-transform: uppercase;
   margin-top: 3rem;
@@ -359,10 +361,15 @@ nav .link:hover {
   text-align: center;
   margin-top: 10px;
 }
+
+.proj-card .proj-content span {
+  font-size: 1rem;
+}
 .proj-img img {
-  width: 450px;
-  border: 1px solid black;
+  width: 200px;
+  border: 1px solid #ccc;
   border-radius: 10px;
+  max-height: 150px;
 }
 .proj-heading-1 {
   color: var(--primary-color);
